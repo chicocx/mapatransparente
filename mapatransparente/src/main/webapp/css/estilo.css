@@ -1,0 +1,7 @@
+.ui-widget {
+	font-size: 12px !important;
+}
+
+.ui-state-disabled {
+	opacity: .95 !important;
+}

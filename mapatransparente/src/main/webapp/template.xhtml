@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+                      "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+<h:head>
+   <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
+</h:head>
+
+<h:body>
+
+	<h:form id="formCorpo">
+		<p:growl autoUpdate="true"/>
+		<p:menubar>
+			<p:submenu label="Menu" icon="ui-icon-document">
+				<p:menuitem value="Início" url="/startConversation?t=inicio.xhtml"/>
+				<p:menuitem value="Contato" url="/startConversation?t=contato.xhtml"/>
+			</p:submenu>
+			<f:facet name="options">
+				<p:commandButton type="button" value="Sair" onclick="document.location.href='j_spring_security_logout';" icon="ui-icon-extlink" />
+			</f:facet>			
+		</p:menubar>
+		<p:messages autoUpdate="true"/>
+		<ui:insert name="corpo" />
+	</h:form>
+
+</h:body>
+</html>

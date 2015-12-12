@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context displayName="mapatransparente" path="/mapatransparente" reloadable="true">
+
+   <!-- 
+   <Resource 
+      auth="Container" 
+      driverClassName="org.postgresql.Driver"
+      maxActive="10" 
+      maxIdle="3" 
+      name="jdbc/mapatransparente" 
+      password="123456"
+      type="javax.sql.DataSource" 
+      url="jdbc:postgresql://localhost/mapatransparente"
+      username="postgres" />
+    -->
+   
+   <Resource 
+      auth="Container" 
+      driverClassName="org.h2.Driver"
+      maxActive="10" 
+      maxIdle="3" 
+      name="jdbc/testearche" 
+      password=""
+      type="javax.sql.DataSource" 
+      url="jdbc:h2:~/solutioin/mapatransparente/h2_bd"
+      username="sa" />
+   
+
+</Context>
