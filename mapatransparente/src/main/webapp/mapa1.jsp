@@ -30,14 +30,14 @@
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container-fluid">
         <div class="navbar-header">
           <div class="navbar-icon-container">
             <a href="#" class="navbar-icon pull-right visible-xs" id="nav-btn"><i class="fa fa-bars fa-lg white"></i></a>
             <a href="#" class="navbar-icon pull-right visible-xs" id="sidebar-toggle-btn"><i class="fa fa-search fa-lg white"></i></a>
           </div>
-          <a class="navbar-brand" href="#">Mapa Transparente</a>
+         <a class="navbar-brand" href="mapa1.jsp"><span style="font-size: bold">Mapa</span>Transparente</a>
         </div>
         <div class="navbar-collapse collapse">
           <form class="navbar-form navbar-right" role="search">
@@ -75,6 +75,9 @@
         <div class="sidebar-wrapper">
           <div class="panel panel-default" id="features">
             <div class="panel-heading">
+              <div class="col-xs-12 col-md-12" style="margin-bottom: 30px;">
+                <img src="img/download.jpg" alt="Social" />
+              </div>
               <h3 class="panel-title">Pontos de interesse
               <button type="button" class="btn btn-xs btn-default pull-right" id="sidebar-hide-btn"><i class="fa fa-chevron-left"></i></button></h3>
             </div>
@@ -265,6 +268,7 @@
           </div>
           <div class="modal-body" id="feature-info"></div>
           <div class="modal-footer">
+            <img src="img/social.jpg" alt="Social" />
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
         </div><!-- /.modal-content -->
@@ -283,34 +287,6 @@
           <div class="modal-body">
             <div id="attribution"></div>
           </div>
-        </div><!-- /.modal-content -->
-      </div><!-- /.modal-dialog -->
-    </div><!-- /.modal -->
-    
-    <div class="modal fade" id="cepModal" tabindex="-1" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content" style="width: 400px;">
-          <div class="modal-header">
-            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
-            <h4 class="modal-title">Bem Vindo ao Mapa Transparente!</h4>
-          </div>
-          <div class="modal-body">
-            <form id="cep-form">
-               <div class="well well-sm">
-                 <div class="row">
-                   <div class="col-md-12">
-                     <div class="form-group">
-                       <label for="first-name">CEP</label>
-                       <input type="text" class="form-control" id="cep">
-                    </div>
-                   <div class="col-md-12">
-                     <p>
-                       <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal">Entrar</button>
-                     </p>
-                   </div>
-                 </div>
-               </div>
-             </form>
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->

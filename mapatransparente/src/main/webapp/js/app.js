@@ -1,9 +1,5 @@
 var map, featureList, boroughSearch = [], saudeSearch = [], educacaoSearch = [], segurancaSearch = [];
 
-$( document ).ready(function() {
-	$("#cepModal").modal("show");	
- });
-
 $(window).resize(function() {
 	sizeLayerControl();
 });
@@ -278,7 +274,7 @@ $.getJSON("data/seguranca.geojson", function (data) {
 });
 
 map = L.map("map", {
-	zoom: 10,
+	zoom: 15,
 	center: [-16.676798, -49.261368],
 	layers: [mapquestOSM, markerClusters, highlight],
 	zoomControl: false,

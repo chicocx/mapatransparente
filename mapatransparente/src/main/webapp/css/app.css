@@ -62,7 +62,7 @@ input[type="radio"], input[type="checkbox"] {
 .sidebar-table {
   position: absolute;
   width: 100%;
-  top: 103px;
+  top: 270px;
   bottom: 0px;
   overflow: auto;
 }
@@ -78,6 +78,10 @@ input[type="radio"], input[type="checkbox"] {
 }
 .table {
   margin-bottom: 0px;
+}
+.navbar-default {
+    background-color: #00CC99;
+    border-color: #E7E7E7;
 }
 .navbar .navbar-brand {
   font-weight: bold;
