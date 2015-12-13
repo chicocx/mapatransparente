@@ -71,7 +71,7 @@
                     </div>
                     <div class="form-group">
                        <label style="color: white;" for="cep">CEP:</label>
-                       <input type="text" name="cep" class="form-control" >
+                       <input type="text" name="cep" id="cep" class="form-control" >
                     </div>
                    <div class="col-md-12" style="text-align: center">
                        <button type="submit" class="btn btn-custom" data-dismiss="modal">Enviar</button>

@@ -20,7 +20,7 @@
         <Set name="username"><SystemProperty name="mapatransparente.jdbc.user" default="sa"/></Set>
         <Set name="password"><SystemProperty name="mapatransparente.jdbc.password" default=""/></Set>
     </New>
-    
+    d
     <New id="mapatransparente_resource" class="org.eclipse.jetty.plus.jndi.Resource">
         <Arg/>
         <Arg>java:comp/env/jdbc/mapatransparente</Arg>

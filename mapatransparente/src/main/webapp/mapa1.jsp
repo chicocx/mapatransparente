@@ -13,20 +13,20 @@
     
     <title>Mapa transparente</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css">
-    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css">
-    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css">
-    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.css">
-    <link rel="stylesheet" href="leaflet-groupedlayercontrol/leaflet.groupedlayercontrol.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/leaflet.css" />
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-markercluster/v0.4.0/MarkerCluster.Default.css" />
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-locatecontrol/v0.43.0/L.Control.Locate.css" />
+    <link rel="stylesheet" href="leaflet-groupedlayercontrol/leaflet.groupedlayercontrol.css" />
     <link rel="stylesheet" href="css/app.css">
 
-    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon-76.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png">
-    <link rel="icon" sizes="196x196" href="img/favicon-196.png">
-    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon-76.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon-120.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon-152.png" />
+    <link rel="icon" sizes="196x196" href="img/favicon-196.png" />
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico" />
   </head>
 
   <body>
@@ -268,6 +268,7 @@
           </div>
           <div class="modal-body" id="feature-info"></div>
           <div class="modal-footer">
+          	<img src="img/like.jpg" alt="Like" style="margin-right: 320px;" />
             <img src="img/social.jpg" alt="Social" />
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
           </div>
