@@ -288,6 +288,34 @@
         </div><!-- /.modal-content -->
       </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+    
+    <div class="modal fade" id="cepModal" tabindex="-1" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content" style="width: 400px;">
+          <div class="modal-header">
+            <button class="close" type="button" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <h4 class="modal-title">Bem Vindo ao Mapa Transparente!</h4>
+          </div>
+          <div class="modal-body">
+            <form id="cep-form">
+               <div class="well well-sm">
+                 <div class="row">
+                   <div class="col-md-12">
+                     <div class="form-group">
+                       <label for="first-name">CEP</label>
+                       <input type="text" class="form-control" id="cep">
+                    </div>
+                   <div class="col-md-12">
+                     <p>
+                       <button type="submit" class="btn btn-primary pull-right" data-dismiss="modal">Entrar</button>
+                     </p>
+                   </div>
+                 </div>
+               </div>
+             </form>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
 
     <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
