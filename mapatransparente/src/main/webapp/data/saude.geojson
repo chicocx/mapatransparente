@@ -2,10 +2,10 @@
 "type": "FeatureCollection",
                                                                                 
 "features": [
-{ "type": "Feature", "id": 0, "properties": {"DESCRICAO": "Ampliação e reforma", "VALOR": "R$ 0000.000", "NOME": "Hospital", "URL": "http:\/\/www.theatermania.com\/new-york\/theaters\/45th-street-theatre_2278\/", "ADDRESS1": "Endereço de teste", "CIDADE": "Goiânia", "CEP": 74250010 }, "geometry": { "type": "Point", "coordinates": [-49.256240, -16.678612] } }
+{ "type": "Feature", "id": 0, "properties": {"DESCRICAO": "Ampliação e reforma", "VALOR": "R$ 0000.000", "NOME": "Hospital", "URL": "http:\/\/www.fontededespesas.com\/new-york\/theaters\/45th-street-theatre_2278\/", "ADDRESS1": "Endereço de teste", "CIDADE": "Goiânia", "CEP": 74250010 }, "geometry": { "type": "Point", "coordinates": [-49.256240, -16.678612] } }
 ,
-{ "type": "Feature", "id": 1, "properties": {"DESCRICAO": "Reforma", "VALOR": "R$ 0000.000","NOME": "Postinho", "URL": "http:\/\/www.bestofoffbroadway.com\/theaters\/47streettheatre.html", "ADDRESS1": "Endereço de teste", "CIDADE": "Goiânia", "ZIP": 74250010 }, "geometry": { "type": "Point", "coordinates": [-49.286240, -16.666612] } }
+{ "type": "Feature", "id": 1, "properties": {"DESCRICAO": "Reforma", "VALOR": "R$ 0000.000","NOME": "Postinho", "URL": "http:\/\/www.fontededespesas.com\/theaters\/47streettheatre.html", "ADDRESS1": "Endereço de teste", "CIDADE": "Goiânia", "ZIP": 74250010 }, "geometry": { "type": "Point", "coordinates": [-49.286240, -16.666612] } }
 ,
-{ "type": "Feature", "id": 3, "properties": {"DESCRICAO": "Compra de equipamentos", "VALOR": "R$ 0000.000","NOME": "Pronto Socorro Theater", "URL": "http:\/\/www.centralpark.com\/pages\/attractions\/delacorte-theatre.html", "ADDRESS1": "Endereço de teste", "CIDADE": "Goiânia", "ZIP": 74250010 }, "geometry": { "type": "Point", "coordinates": [-49.278263, -16.688057] } }
+{ "type": "Feature", "id": 3, "properties": {"DESCRICAO": "Compra de equipamentos", "VALOR": "R$ 0000.000","NOME": "Pronto Socorro Theater", "URL": "http:\/\/www.fontededespesas.com\/pages\/attractions\/delacorte-theatre.html", "ADDRESS1": "Endereço de teste", "CIDADE": "Goiânia", "ZIP": 74250010 }, "geometry": { "type": "Point", "coordinates": [-49.278263, -16.688057] } }
 ]
 }
