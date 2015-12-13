@@ -19,6 +19,8 @@ public class Vontade {
 	private Date data = new Date();
 
 	private String nome;
+	
+	private String cep;
 
 	public Date getData() {
 		return data;
@@ -38,5 +40,13 @@ public class Vontade {
 
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public String getCep() {
+		return cep;
+	}
+
+	public void setCep(String cep) {
+		this.cep = cep;
 	}
 }

@@ -35,6 +35,7 @@ public class RegistrarVontade extends HttpServlet {
 		VontadeDao vontadeDao = ctx.getBean(VontadeDao.class);
 		Vontade vontade = new Vontade();
 		vontade.setNome(request.getParameter("nome"));
+		vontade.setNome(request.getParameter("cep"));
 		
 		vontadeDao.incluir(vontade);
 		response.sendRedirect("mapa1.jsp");
