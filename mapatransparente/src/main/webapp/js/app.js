@@ -1,7 +1,7 @@
 var map, featureList, boroughSearch = [], theaterSearch = [], museumSearch = [], segurancaSearch = [];
 
 $( document ).ready(function() {
-	$("#cepModal").modal("show");
+	$("#cepModal").modal("show");	
  });
 
 $(window).resize(function() {
@@ -399,7 +399,7 @@ var baseLayers = {
 var groupedOverlays = {
 		"Áreas de interesse": {
 			"<img src='img/theater.png' width='24' height='28'>&nbsp;Educação": saudeLayer,
-			"<img src='img/museum.png' width='24' height='28'>&nbsp;Saúde": museumLayer,
+			"<img src='img/museum.png' width='24' height='28'>&nbsp;Muse": museumLayer,
 			"<img src='img/museum.png' width='24' height='28'>&nbsp;Segurança": segurancaLayer
 		}
 };
